@@ -1431,7 +1431,7 @@ static NSMutableDictionary *attributes;
     FSOperation *operation = [[FSOperation alloc] initWithRequest:request
                                                          callback:block
                                                     callbackQueue:self.callbackQueue];
-    [self.operationQueue addOperation:operation];
+    //[self.operationQueue addOperation:operation];
     return operation;
 }
 
